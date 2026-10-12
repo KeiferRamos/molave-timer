@@ -11,6 +11,10 @@ body {
   font-family: "Arimo", sans-serif;
 }
 
+.nl-wrap {
+  display: none;
+}
+
 main {
   background-size: cover;
   color: #27311d;
