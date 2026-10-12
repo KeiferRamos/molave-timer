@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import heroBg from "./images/Cream Pastel Leaves Aesthetic Group Project Presentation.png";
 
 function nextHour(from: number) {
   const d = new Date(from);
@@ -41,7 +42,10 @@ export default function App() {
     : "";
 
   return (
-    <main className="min-h-screen flex items-center justify-center p-6 font-sans text-neutral-900">
+    <main
+      style={{ backgroundImage: `url(${heroBg})` }}
+      className="min-h-screen flex items-center justify-center p-6 font-sans text-neutral-900"
+    >
       {!running ? (
         <button
           onClick={start}
