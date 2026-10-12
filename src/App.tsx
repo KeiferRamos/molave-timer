@@ -43,7 +43,7 @@ export default function App() {
 
   return (
     <main
-      style={{ backgroundImage: `url(${heroBg})` }}
+      style={{ backgroundImage: `url(${heroBg})`, backgroundSize: "cover" }}
       className="min-h-screen flex items-center justify-center p-6 font-sans text-neutral-900"
     >
       {!running ? (
