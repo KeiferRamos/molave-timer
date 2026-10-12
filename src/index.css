@@ -12,7 +12,7 @@ body {
 }
 
 .nl-wrap {
-  display: none;
+  display: none !important;
 }
 
 main {
