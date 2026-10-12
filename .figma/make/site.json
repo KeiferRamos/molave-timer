@@ -1,0 +1,10 @@
+{
+  "description": "Easily countdown to the next hour with a simple click, perfect for anyone needing a quick timer for reminders or events.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

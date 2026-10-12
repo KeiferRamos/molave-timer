@@ -1,0 +1,35 @@
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Vidaloka&display=swap");
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arimo", sans-serif;
+}
+
+main {
+  background-image: url(../public/Cream\ Pastel\ Leaves\ Aesthetic\ Group\ Project\ Presentation.png);
+  background-size: cover;
+  color: #27311d;
+}
+
+h1 {
+  font-size: 280px;
+  font-weight: 800;
+}
+
+span {
+  color: #27311d;
+}
+
+p {
+  position: absolute;
+  bottom: 30px;
+  font-size: 30px;
+
+  font-family: "Vidaloka", serif;
+}
